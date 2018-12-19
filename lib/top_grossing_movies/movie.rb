@@ -1,5 +1,5 @@
 #puts "hello from movies"
-class TopGrossingMovies::Movies
+class TopGrossingMovies::Movie
   def self.all
   end
 
