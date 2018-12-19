@@ -1,2 +1,4 @@
 #!/usr/bin/env ruby
-puts "Hey there! It is working!!!"
+require_relative "../lib/top_grossing_movies"
+#puts "Hey there! It is working!!!"
+TopGrossingMovies::Cli.new.call

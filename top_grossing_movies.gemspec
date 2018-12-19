@@ -28,8 +28,8 @@ Gem::Specification.new do |spec|
   spec.files         = Dir.chdir(File.expand_path('..', __FILE__)) do
     `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   end
-  spec.bindir        = "bin"
-  spec.executables   = ["top_grossing)movies"]   #spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
+  spec.bindir        = "bin" #exe
+  spec.executables   = ["top_grossing_movies"]   #spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.16"
